@@ -1,0 +1,30 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 16.6.0 d001Mar-01-2016 at 09:49:26 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='DESIGN4';
+ POST_TIME='Feb 15 2016 19:53:59';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C1 'CAP_CAPC1608X91N_DISCRETE_10UF_':;
+
+SECTION_NUMBER 1
+ '@DESIGN4.SCHEMATIC1(SCH_1):INS118@DAXSONICS.CAP.NORMAL(CHIPS)':
+ C_PATH='@design4.schematic1(sch_1):ins118@daxsonics.\cap.normal\(chips)',
+ P_PATH='@design4.schematic1(sch_1):page1_ins118@daxsonics.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 'AMP_RF3827_QFN50P300X300X100-17':;
+
+SECTION_NUMBER 1
+ '@DESIGN4.SCHEMATIC1(SCH_1):INS187@DAXSONICS.AMP_RF3827.NORMAL(CHIPS)':
+ C_PATH='@design4.schematic1(sch_1):ins187@daxsonics.\amp_rf3827.normal\(chips)',
+ P_PATH='@design4.schematic1(sch_1):page1_ins187@daxsonics.\amp_rf3827.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

@@ -1,0 +1,82 @@
+FILE_TYPE=LIBRARY_PARTS;
+{ Using PSTWRITER 16.6.0 d001Mar-01-2016 at 09:49:26}
+primitive 'CAP_CAPC1608X91N_DISCRETE_10UF_';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP';
+    JEDEC_TYPE='CAPC1608X91N';
+    CLASS='DISCRETE';
+    VALUE='10uF';
+    PART_NUMBER='CAP-00000023';
+  end_body;
+end_primitive;
+primitive 'AMP_RF3827_QFN50P300X300X100-17';
+  pin
+    'RF IN':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'RF OUT':
+      PIN_NUMBER='(11)';
+      PINUSE='UNSPEC';
+    'GND':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'NC_0':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'NC_1':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    'NC_2':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+    'NC_3':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+    'NC_4':
+      PIN_NUMBER='(7)';
+      PINUSE='UNSPEC';
+    'NC_5':
+      PIN_NUMBER='(8)';
+      PINUSE='UNSPEC';
+    'NC_6':
+      PIN_NUMBER='(9)';
+      PINUSE='UNSPEC';
+    'NC_7':
+      PIN_NUMBER='(10)';
+      PINUSE='UNSPEC';
+    'NC_8':
+      PIN_NUMBER='(12)';
+      PINUSE='UNSPEC';
+    'NC_9':
+      PIN_NUMBER='(13)';
+      PINUSE='UNSPEC';
+    'NC_10':
+      PIN_NUMBER='(14)';
+      PINUSE='UNSPEC';
+    'NC_11':
+      PIN_NUMBER='(15)';
+      PINUSE='UNSPEC';
+    'NC_12':
+      PIN_NUMBER='(16)';
+      PINUSE='UNSPEC';
+    'GND_PAD':
+      PIN_NUMBER='(17)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='AMP_RF3827';
+    JEDEC_TYPE='QFN50P300X300X100-17_T170';
+    CLASS='IO';
+    VALUE='RF3827';
+    PART_NUMBER='IC-00000031';
+  end_body;
+end_primitive;
+END.
